@@ -5,7 +5,7 @@
 ## Features
 
 - **Gemini AI-Powered Conversations**: Utilizes the Gemini API to generate dynamic, real-time AI responses.
-- **Clean User Interface**: Built using Material Design and Android `ConstraintLayout` to provide a seamless and modern chat experience.
+- **Clean User Interface**: Provides a seamless and modern chat experience.
 - **Message History**: Keeps a running chat history that users can scroll through easily.
 - **Floating Action Button for Message Sending**: Users can send their queries to the AI with the help of an intuitive floating action button.
 - **Progress Bar**: Displays a loading progress indicator while the AI processes and responds to the user's message.
@@ -23,8 +23,10 @@
 - **Programming Language**: Java
 - **AI Integration**: Gemini API for AI-powered chat functionalities.
 - **Networking**: Retrofit for API communication and Gson for JSON parsing.
-- **UI Design**: Material Components and Constraint Layout for responsive design.
-- **Dependencies**: Guava for async operations and Reactive Streams for reactive data management.
+
+## Requirements
+
+- **Gemini API Key**: You will need a valid API key from the Gemini platform to access AI functionalities. Make sure to include this key in your application configuration.
 
 ## Setup and Installation
 
@@ -38,7 +40,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://Arnavjain2503//gemchat.git
+   git clone https://github.com/Arnavjain2503/gemchat.git
    cd gemchat
    ```
 
@@ -59,6 +61,8 @@
 - **Gemini API**: For AI-generated responses.
    ```gradle
    implementation("com.google.ai.client.generativeai:generativeai:0.7.0")
+   implementation("com.google.ai.client.generativeai:generativeai-gson:0.7.0")
+   implementation("com.google.ai.client.generativeai:generativeai-retrofit:0.7.0")
    ```
 - **Retrofit & Gson**: For handling network requests and parsing responses.
    ```gradle
@@ -83,6 +87,6 @@
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
+## Author
 
-Arnav Jain
+**Arnav Jain**  
